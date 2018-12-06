@@ -1,0 +1,19 @@
+********* Start testing of Test_Max *********
+Config: Using QtTest library 5.1.1, Qt 5.1.1
+PASS   : Test_Max::initTestCase()
+PASS   : Test_Max::max(max_test1)
+PASS   : Test_Max::max(max_test2)
+PASS   : Test_Max::max(max_test3)
+PASS   : Test_Max::cleanupTestCase()
+Totals: 5 passed, 0 failed, 0 skipped
+********* Finished testing of Test_Max *********
+
+********* Start testing of Test_QLineEdit *********
+Config: Using QtTest library 5.1.1, Qt 5.1.1
+PASS   : Test_QLineEdit::initTestCase()
+QWARN  : Test_QLineEdit::edit() setGeometry: Unable to set geometry 13x13+363+124 on 'QCheckBoxClassWindow'. Resulting geometry:  116x13+363+124 (frame: 8, 30, 8, 8, custom margin: 0, 0, 0, 0, minimum size: 0x0, maximum size: 16777215x16777215).
+FAIL!  : Test_QLineEdit::edit() 'a.isChecked()' returned FALSE. ()
+..\lab5\test_qlineedit.cpp(16) : failure location
+PASS   : Test_QLineEdit::cleanupTestCase()
+Totals: 2 passed, 1 failed, 0 skipped
+********* Finished testing of Test_QLineEdit *********
